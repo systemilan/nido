@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Nido</title>
+<style>
+  :root { --bg:#F7F0E9; --card:rgba(255,255,255,.7); --text:#17151F; --muted:#4F4B5C; --line:rgba(23,21,31,.1); --a:#F0582B; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:radial-gradient(800px 500px at 0% 0%, rgba(255,176,138,.55), transparent 60%), radial-gradient(700px 500px at 100% 10%, rgba(196,178,255,.5), transparent 60%), radial-gradient(700px 500px at 50% 100%, rgba(255,221,143,.45), transparent 60%), var(--bg); color:var(--text); font:16.5px/1.65 -apple-system, "Segoe UI", Roboto, sans-serif; min-height:100vh; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 80px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; margin-bottom:28px; }
+  .dot { width:30px; height:30px; border-radius:10px; background:linear-gradient(135deg,#FF8A45,#FF4F7E); }
+  h1 { font-size:34px; line-height:1.15; letter-spacing:-.02em; margin:0 0 8px; }
+  h2 { font-size:19px; margin:34px 0 8px; }
+  p, li { color:var(--muted); } strong { color:var(--text); } a { color:var(--a); }
+  .date { color:var(--muted); font-size:14px; padding-bottom:22px; border-bottom:1px solid var(--line); }
+  .card { background:var(--card); border:1px solid rgba(255,255,255,.9); border-radius:20px; padding:18px 20px; margin:16px 0; backdrop-filter:blur(12px); }
+  table { width:100%; border-collapse:collapse; font-size:15px; } td, th { text-align:left; padding:10px 8px; border-bottom:1px solid var(--line); vertical-align:top; } th { color:var(--text); }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="dot"></span>Nido</div>
+  <h1>Política de privacidad</h1>
+  <p class="date">Última actualización: 7 de noviembre de 2026 · Desarrollador: Ditxon Milan</p>
+
+  <p>Nido es una app para organizar el hogar en familia: gastos, viajes, los hijos y sus horarios de clase, y las tareas de la casa. Esta política explica qué datos usa la app, para qué, dónde se guardan y cómo puedes eliminarlos.</p>
+
+  <h2>Resumen</h2>
+  <div class="card">
+    <ul>
+      <li>Usamos tus datos <strong>solo para que la app funcione</strong>. No hay anuncios, no vendemos datos y no los compartimos con terceros para publicidad.</li>
+      <li>Lo que registras en un hogar <strong>solo lo ven los miembros de ese hogar</strong>, es decir, las personas que tú invitaste con el código.</li>
+      <li>Puedes usar Nido <strong>sin cuenta</strong>: en ese modo todo queda solo en tu teléfono.</li>
+      <li>Puedes <strong>eliminar tu cuenta y tus datos</strong> desde la app en cualquier momento.</li>
+    </ul>
+  </div>
+
+  <h2>Datos que usamos</h2>
+  <table>
+    <tr><th>Dato</th><th>Para qué</th><th>Dónde se guarda</th></tr>
+    <tr><td>Nombre, correo y foto de tu cuenta de Google</td><td>Iniciar sesión y mostrar tu nombre a los miembros de tu hogar</td><td>Teléfono y Firebase Authentication (Google)</td></tr>
+    <tr><td>Datos del hogar: nombre, moneda, miembros y presupuestos</td><td>Compartir el hogar con tu familia</td><td>Teléfono y Cloud Firestore (Google)</td></tr>
+    <tr><td>Ingresos y gastos (monto, categoría, detalle, fecha, quién pagó)</td><td>Llevar el control de gastos del hogar</td><td>Teléfono y Cloud Firestore</td></tr>
+    <tr><td>Viajes: destino, fechas, itinerario, costos y lista de maleta</td><td>Planificar vacaciones</td><td>Teléfono y Cloud Firestore</td></tr>
+    <tr><td>Hijos: nombre, nivel, grado, colegio, cumpleaños (opcional) y horario de clases</td><td>Mostrar qué clases tiene cada hijo cada día</td><td>Teléfono y Cloud Firestore</td></tr>
+    <tr><td>Tareas de la casa y quién las hizo</td><td>Turnos, recordatorios y ranking familiar</td><td>Teléfono y Cloud Firestore</td></tr>
+  </table>
+  <p>Si usas Nido <strong>sin cuenta</strong>, nada de lo anterior sale de tu teléfono.</p>
+
+  <h2>Datos de los hijos</h2>
+  <p>Nido está pensada para que <strong>madres, padres o adultos responsables</strong> organicen su hogar. Los hijos no tienen cuenta ni usan la app; la información sobre ellos la registra un adulto y solo la ven los miembros del hogar. Registra únicamente lo necesario (por ejemplo, solo el nombre de pila).</p>
+
+  <h2>Servicios de terceros</h2>
+  <p>Usamos servicios de Google: <strong>Inicio de sesión con Google</strong>, <strong>Firebase Authentication</strong> y <strong>Cloud Firestore</strong>, para guardar y sincronizar los datos del hogar entre sus miembros. Los datos viajan cifrados (HTTPS). Google trata estos datos según su propia <a href="https://policies.google.com/privacy">política de privacidad</a>. Cuando instalas Nido desde una invitación, Google Play nos entrega el código de invitación del enlace para llenarlo por ti; no recibimos ningún otro dato de esa instalación.</p>
+
+  <h2>Notificaciones</h2>
+  <p>Si las permites, Nido te envía cada mañana un resumen del día (tareas, clases y viajes). Se genera en tu teléfono y puedes desactivarlo en Ajustes.</p>
+
+  <h2>Cuánto tiempo guardamos tus datos</h2>
+  <p>Mientras tengas tu cuenta o pertenezcas al hogar. Si sales de un hogar, dejas de verlo, pero lo que registraste sigue disponible para los demás miembros. Si eres la última persona del hogar y lo eliminas, se borran todos sus datos.</p>
+
+  <h2>Eliminar tu cuenta y tus datos</h2>
+  <div class="card">
+    <p>En la app: <strong>Ajustes → Eliminar mi cuenta</strong>. Se borra tu cuenta de Nido y, si eres la única persona del hogar, todos sus datos. También puedes <strong>salir del hogar</strong> o <strong>eliminar el hogar</strong> desde Ajustes.</p>
+    <p>Sin acceso a la app, sigue los pasos de <a href="delete-account.html">esta página</a>.</p>
+  </div>
+
+  <h2>Seguridad</h2>
+  <p>Las reglas de la base de datos solo permiten que lean y escriban los datos de un hogar las personas que son miembros de ese hogar.</p>
+
+  <h2>Cambios a esta política</h2>
+  <p>Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es importante, te avisaremos en la app.</p>
+
+  <h2>Contacto</h2>
+  <p>Ditxon Milan · <a href="mailto:ditxonmilan37@gmail.com">ditxonmilan37@gmail.com</a></p>
+</main>
+</body>
+</html>
